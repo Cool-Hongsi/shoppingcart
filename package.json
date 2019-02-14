@@ -1,0 +1,24 @@
+{
+  "name": "shopping_cart",
+  "version": "1.0.0",
+  "description": "shopping_cart by nodejs & reactjs",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js",
+    "frontend": "npm start --prefix frontend",
+    "dev": "concurrently \"npm run server\" \"npm run frontend\""
+  },
+  "author": "Sungjun Hong",
+  "license": "ISC",
+  "dependencies": {
+    "alert-node": "^1.2.3",
+    "body-parser": "^1.18.3",
+    "concurrently": "^4.1.0",
+    "connect-mongo": "^2.0.3",
+    "express": "^4.16.4",
+    "express-session": "^1.15.6",
+    "mongoose": "^5.4.5",
+    "nodemon": "^1.18.9"
+  }
+}

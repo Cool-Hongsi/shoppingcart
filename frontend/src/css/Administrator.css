@@ -1,0 +1,33 @@
+form{
+    margin: 30px;
+}
+
+table{
+    padding : 5px;
+    text-align: center;
+}
+
+td, th{
+    border : .5px solid black;
+}
+
+table .idCell, .quantityCell, .priceCell{
+    width : 7%;
+}
+
+table .nameCell{
+    width : 13%;
+}
+
+table .descriptionCell{
+    width : 46%;
+}
+
+table .imgCell{
+    width : 20%;
+}
+
+img{
+    width: 100%;
+    height: 10%;
+}

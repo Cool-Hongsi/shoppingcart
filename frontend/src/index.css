@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono');
+
+html, body{
+  margin : 0;
+  padding : 0;
+  width : 100%;
+  height : 100vh;
+  font-family: 'Roboto Mono', monospace;
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
